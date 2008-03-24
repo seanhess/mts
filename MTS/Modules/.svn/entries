@@ -1,0 +1,71 @@
+8
+
+dir
+5
+http://dev.seanclarkhess.com/mts/MTS/Modules
+http://dev.seanclarkhess.com/mts
+
+
+
+2007-11-14T18:01:41.599708Z
+4
+seanhess
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fa6bf326-e53e-0410-ae38-cd85125019ed
+
+MTSAutoBackup
+dir
+
+TiddlySnip
+dir
+
+MTSConflictDetection
+dir
+
+MTSModuleManager
+dir
+
+MTSAutoLogin
+dir
+
+RssAlwaysOn
+dir
+
+deactivate
+file
+
+
+
+
+2007-05-01T12:23:20.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+has-props
+
+MTSDownload
+dir
+
+MTSUploadWiki
+dir
+
+MTSBasicRss
+dir
+
+MTSBasicAdmin
+dir
+

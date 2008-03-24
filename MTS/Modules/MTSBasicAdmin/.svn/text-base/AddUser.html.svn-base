@@ -1,0 +1,10 @@
+<h4>Add User</h4>
+<form action="javascript:;">
+     <table>
+        <tr><td>User: </td><td><input type="text" size="10" name="user"/></td></tr>
+        <tr><td>Pass: </td><td><input type="password" size="10" name="pass"/></td></tr>
+        <tr><td>Pass: </td><td><input type="password" size="10" name="pass2"/></td></tr>
+        <tr><td>Admin?: </td><td><input type="checkbox" size="10" name="admin"/></td></tr>
+        <tr><td colspan="2"><input type="submit" value="Add User" onclick="addUser(this.form)"></td></tr>
+    </table>
+</form>

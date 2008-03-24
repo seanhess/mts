@@ -1,0 +1,2 @@
+<h4>Delete This Wiki</h4>
+<input type="submit" value="Delete Wiki" onclick="deleteWiki()"/>

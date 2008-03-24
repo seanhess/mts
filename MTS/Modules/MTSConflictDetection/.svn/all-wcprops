@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection
+END
+Conflicts.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/Conflicts.js
+END
+ConflictsPostSave.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/ConflictsPostSave.php
+END
+ConflictsInitEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/ConflictsInitEvent.php
+END
+ConflictCleanupEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/ConflictCleanupEvent.php
+END
+ConflictsSave.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/ConflictsSave.php
+END
+deactivate
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/deactivate
+END
+ConflictCleanup.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/ConflictCleanup.html
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mts/!svn/ver/1/MTS/Modules/MTSConflictDetection/index.php
+END

@@ -1,0 +1,68 @@
+8
+
+dir
+5
+http://dev.seanclarkhess.com/mts/MTS/Modules/MTSModuleManager
+http://dev.seanclarkhess.com/mts
+
+
+
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+
+
+svn:special svn:externals svn:needs-lock
+
+Modules.js
+file
+
+
+
+
+2007-05-01T12:23:18.000000Z
+f1cb1dc25cf38b205e75a1b6bcd82e2e
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+has-props
+
+ModuleManager.php
+file
+
+
+
+
+2007-05-01T12:23:18.000000Z
+080ca4785c1c9835aeb25f1a68910f15
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+has-props
+
+index.php
+file
+
+
+
+
+2007-05-01T12:23:18.000000Z
+b91bd723ac9941270651681a23aff81c
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+has-props
+
+ModuleActivation.php
+file
+
+
+
+
+2007-05-01T12:23:18.000000Z
+a06543f68d08491cd22f50c5f227f2ae
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+has-props
+

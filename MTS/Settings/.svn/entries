@@ -1,0 +1,40 @@
+8
+
+dir
+5
+http://dev.seanclarkhess.com/mts/MTS/Settings
+http://dev.seanclarkhess.com/mts
+
+
+
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+
+
+svn:special svn:externals svn:needs-lock
+
+ClientLocations.php
+file
+
+
+
+
+2007-11-14T16:12:52.000000Z
+0f18d143199d618667cc8d6739772985
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+
+ServerLocations.php
+file
+
+
+
+
+2007-11-14T16:17:44.000000Z
+b7c91a71bc6c79d6e05e1dd23408f73d
+2007-11-14T16:58:09.253094Z
+1
+seanhess
+

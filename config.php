@@ -31,7 +31,8 @@
     ////////////////////////////////////////////////////////////////////////////////
     */
 
-    $userspath = "MTS/Source/users.php";
+    $userspath = "MTS/Source/users.php"; 
+    $htaccesspath = "MTS/Source/htaccess";
     if (file_exists($userspath))
     {
         ?><h2>Config Complete</h2><p>The users file already exists</h2><?php
@@ -45,7 +46,7 @@
     if (isset($adminpass) && isset($adminuser) && $adminpass != "" && $adminuser != "") {
 
             // 1 // Create a new users.php with the admin password 
-                $userstext = "<?php\n";
+                /*$userstext = "<?php\n";
                 $userstext .= "\$users = array(\n";
                 $userstext .= "\t\"$adminuser\" => \"$adminpass\",\n";
                 $userstext .= ");\n";
@@ -58,8 +59,16 @@
                 {
                     echo "<h2>User File Writing Error</h2><p>MTS was unable to create users.php, the file that stores login information.</p>";
                     exit();
-                }
+                }*/         
+                
+            // 2 // Generate .htaccess             
+                $rooturl = preg_replace(':/[^/]*$:i','/',$_SERVER['REQUEST_URI']);
+                $htaccess = file_get_contents($htaccesspath);
+                $htaccess = preg_replace(':/index:i', $rooturl.'index', $htaccess);
             
+                if (!file_put_contents('.htaccess', $htaccess))
+                    echo "<h2>htaccess error</h2><p>MTS was unable to create your .htaccess file $htaccess foo</p>";
+
             // 4 // Redirect 
                 echo "User Created<br><a href='index.php'>Return to your default wiki</a>";
                 exit();

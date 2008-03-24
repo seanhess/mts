@@ -23,15 +23,12 @@
 ////////////////////////////////////////////////////////////////////////////////*/
 
 // PHP SOURCE // This file is copied as the php source for each file. 
-
-    if (isset($_GET['htmlsource']))
-        $wikipath = $_GET['htmlsource'];
+       
+    if (isset($_GET['source'])) 
+        $wikipath = preg_replace('/.htm.?$/i','', $_GET['source']).'.html';
     
-    else if (isset($_GET['source']))
-        $wikipath = $_GET['source'].'html';
-        
-    else
-        $wikipath = 'defaultsource.html';
+    //else
+    //    $wikipath = 'defaultsource.html';
         
 //  $wikipath = isset($_GET['source']) ? $_GET['source'].'.html' : "defaultsource.html";
     

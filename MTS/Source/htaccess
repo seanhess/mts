@@ -2,4 +2,4 @@ Options +FollowSymLinks
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*[^/])/?$ /~sean/mts/index.php?source=$1 [QSA,L]
+RewriteRule ^(.*[^/])/?$ /index.php?source=$1 [QSA,L]
